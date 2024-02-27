@@ -1,38 +1,83 @@
-.App {
+.Netart {
+  background-color: black;
+}
+
+.mainContainer {
+  background-color: #fff;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-bottom: 5vh;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+}
+
+.navBar > img {
+  transform: scale(0.7);
+}
+
+.topFirst {
+  display: flex;
+  justify-content: center;
+}
+
+.trophy > img {
+  height: 65vh;
+}
+
+.priceContainer {
+  display: flex;
+}
+
+.price {
+  height: 40vh;
+  width: 35vw;
+}
+
+.application {
   text-align: center;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.accessories {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 10px;
+  border-bottom: 2px solid red;
+}
+
+.accessories > img {
+  width: 80%;
+  height: 20%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer > .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer .options {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 3px;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.options > p {
+  border-right: 1px solid red;
+  padding-right: 3px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
