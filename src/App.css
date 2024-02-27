@@ -15,7 +15,9 @@
 }
 
 .navBar > img {
-  transform: scale(0.7);
+  /* transform: scale(0.7); */
+  min-height: 2vmax;
+  max-height: 12vmax;
 }
 
 .topFirst {
@@ -32,8 +34,8 @@
 }
 
 .price {
-  height: 40vh;
-  width: 35vw;
+  max-height: 20vmax;
+  max-width: 35vmax;
 }
 
 .application {
@@ -80,4 +82,36 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1000px) {
+  .mainContainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
 
+@media screen and (max-width: 800px) {
+  .Netart {
+    padding: 0 10px;
+  }
+  .mainContainer {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Netart {
+    padding: 0 5px;
+  }
+
+  .topFirst {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .mainContainer {
+    padding: 0 10px;
+  }
+}

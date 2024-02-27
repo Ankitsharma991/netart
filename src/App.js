@@ -19,8 +19,10 @@ function App() {
           <div className="priceContainer">
             <div>
               <p>
-                C.R.I pumps wins the national Energy conservation award 2018 for
-                the 4th time.
+                <b>
+                  C.R.I pumps wins the national Energy conservation award 2018
+                  for the 4th time.
+                </b>
               </p>
               <ul>
                 <li>
@@ -35,7 +37,9 @@ function App() {
                   efficient smart pumps with IoT enabled control panel.
                 </li>
               </ul>
-              <img src={PRICE} alt="price" className="price" />
+              <div className="imgContainer">
+                <img src={PRICE} alt="price" className="price" />
+              </div>
               <p>
                 Government of India has awarded{" "}
                 <b>"National Energy conservation Award 2018"</b>, Mr. G.
